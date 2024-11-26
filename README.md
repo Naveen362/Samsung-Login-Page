@@ -1,2 +1,2 @@
 
-[Visit Link](https://samsungloginpage.netlify.app)
+[Click here to Visit](https://samsungloginpage.netlify.app)
