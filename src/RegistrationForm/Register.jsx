@@ -1,6 +1,7 @@
-import samsunggw from '../assets/samsung.jpg'
+import samsunggw from '../assets/New-PCD_Galaxy-Z_Curation-KV_1440x640_pc.avif'
 import React, { useState } from 'react';
 import './Register.css'
+import { Link } from 'react-router-dom';
 
 const Register = () => {
   const [data, setData] = useState({ First_name: '', Last_name: '', email: '', phonenum: '', password: '', repassword: '' });
@@ -40,12 +41,13 @@ const Register = () => {
   };
 
   return (
+    <>
     <div className="maindiv container min-vh-100 d-flex justify-content-center align-items-center">
       <div className="images"><img src={samsunggw} width="100%" height="100%"/></div>
       <div className="row w-100">
         <div className="col-12 col-sm-12 col-md-9 col-lg-9 mx-auto">
           <form className="shadow-lg p-4 mt-5" onSubmit={submitForm}>
-            <h2 className="text-center mb-4">Registration Form</h2>
+            <h2 className="text-center fst-italic mb-4">Registration Form</h2>
             <input
               type="text"
               placeholder="Enter Your First Name"
@@ -113,13 +115,15 @@ const Register = () => {
             />
             {errors.repassword && <p className="text-danger">{errors.repassword}</p>}
 
-            <button className="btn btn-warning w-100 mt-4 mb-4" type="submit">
+            <button className="btn btn-danger w-100 mt-4 mb-4" type="submit">
               Submit
             </button>
+           <div className='d-flex justify-content-evenly'> <Link to='/login'>Already have an account</Link>
+           <Link to='/help'>@contact us</Link></div>
           </form>
         </div>
       </div>
-    </div>
+    </div></>
   );
 };
 
