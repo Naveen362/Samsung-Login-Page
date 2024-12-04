@@ -119,7 +119,7 @@ const Register = () => {
               Submit
             </button>
            <div className='d-flex justify-content-evenly'> <Link to='/login'>Already have an account</Link>
-           <Link to='/help'>@contact us</Link></div>
+           <a href='https://www.samsung.com/us/aboutsamsung/samsung-customer-and-community-response/'>@contact us</a></div>
           </form>
         </div>
       </div>

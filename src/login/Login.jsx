@@ -11,7 +11,7 @@ const Login = () => {
                     <input type="text" className="inputer form-control w-75 mx-auto mt-4 mt-5 mb-5" placeholder="Enter User_ID" />
                     <input type="password" className="inputer form-control mb-5 w-75 mx-auto" placeholder='Enter Password' />
                     <button type="submit" className="btn btn-primary rounded shadow-lg mx-auto w-100 mb-5">Login</button>
-                    <div className="d-flex justify-content-evenly align-items-center mb-4"><Link to="/Forgot password"><a href="#">Forgot Password?</a></Link><Link to="/Registration Page"><a href="#">New User</a></Link></div>
+                    <div className="d-flex justify-content-evenly align-items-center mb-4"><a href="https://account.samsung.com/accounts/v1/MBR/resetPassword">Forgot Password?</a><Link to="/Registration Page"><a href="#">New User</a></Link></div>
                 </form></div>
             <img src={Samsungimage} className="samsungimage" />
         </div>
