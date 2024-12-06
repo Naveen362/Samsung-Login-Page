@@ -84,7 +84,7 @@ const Register = () => {
 
             <input
               type="tel"
-              placeholder="Enter Your Phone Number"
+              placeholder="Enter Your Phone Number ..."
               className="form-control w-100 mb-4"
               name="phonenum"
               required
