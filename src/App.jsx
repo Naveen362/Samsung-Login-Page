@@ -4,8 +4,7 @@ import { Routes,Route } from "react-router-dom";
 
 export default function App(){
   return(<div className="App">
-    {/* <Register/> */}
-    {/* <Login/> */}
+    
     <Routes>
       <Route path="/" element={<Login/>}></Route>
       <Route path='/Registration Page' element={<Register/>}/>

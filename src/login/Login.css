@@ -5,7 +5,7 @@
 }
 .inputer:focus{
 border:2px solid gray;
-/* border-bottom:2px solid rgb(222, 169, 35); */
+
 }
 .maindivlogin{
     position:relative;
@@ -38,5 +38,7 @@ border:2px solid gray;
     }
     .maindivlogin h1{
         font-size: 60px;
+        font-weight:500;
+
     }
 }
