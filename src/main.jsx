@@ -9,6 +9,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
 
     <App />
+    //App component loaded in main.js file...........................
     
     </BrowserRouter>
     
